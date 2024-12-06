@@ -17,24 +17,12 @@
 Este projeto demonstra o uso do padrão Singleton para gerenciar a criação de instâncias no projeto POO-RPG-Simulador. Ao utilizar o Singleton, garantimos que uma única instância de uma classe seja criada e utilizada em todo o sistema, promovendo a consistência e evitando a duplicação de recursos.
 
 ### Implementação do Padrão Singleton
-O padrão Singleton foi implementado na classe `GerenciadorDeJogo` (arquivo `src/GerenciadorDeJogo.ts`). Esta classe é responsável por gerenciar o estado do jogo e garantir que apenas uma instância dela exista durante a execução do programa. A implementação do Singleton é feita através de um construtor privado e um método estático que fornece acesso à instância única.
+O padrão Singleton foi implementado  no (arquivo `Main.py`). Esta classe é responsável por gerenciar o estado do jogo e garantir que apenas uma instância dela exista durante a execução do programa. A implementação do Singleton é feita através de um construtor privado e um método estático que fornece acesso à instância única.
 
 ```python
-class GerenciadorDeJogo {
-    private static instancia: GerenciadorDeJogo;
-
-    private constructor() {
-        // Inicialização do gerenciador de jogo
-    }
-
-    public static getInstancia(): GerenciadorDeJogo {
-        if (!GerenciadorDeJogo.instancia) {
-            GerenciadorDeJogo.instancia = new GerenciadorDeJogo();
-        }
-        return GerenciadorDeJogo.instancia;
-    }
-
-    // Métodos para gerenciar o jogo
-}
-
 Link do video de apresentação- https://youtu.be/R_OSaBHf__g
+Grupo apenas eu Joao Lucas Goularte Nunes.
+
+
+
+
