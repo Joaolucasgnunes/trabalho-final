@@ -1,13 +1,13 @@
 # POO-RPG-Simulador
 
 🛡️ **Padrão de Projeto: Singleton**  
-🔐 **Pré-requisitos:** Node.js, TypeScript
+🔐 **Pré-requisitos:** Node.js, Python
 
 ## Padrão Singleton
 
 ### Passos a serem seguidos:
 - **Passo 01:** Introdução ao padrão Singleton e seus contextos de aplicação.
-- **Passo 02:** Implementação do padrão Singleton em TypeScript.
+- **Passo 02:** Implementação do padrão Singleton em Python.
 - **Passo 03:** Refatorando a gestão de instâncias no projeto POO-RPG-Simulador usando Singleton.
 - **Passo 04:** Aplicação prática do padrão Singleton para garantir que uma classe tenha apenas uma instância e fornecer um ponto de acesso global a ela.
 
@@ -19,7 +19,7 @@ Este projeto demonstra o uso do padrão Singleton para gerenciar a criação de 
 ### Implementação do Padrão Singleton
 O padrão Singleton foi implementado na classe `GerenciadorDeJogo` (arquivo `src/GerenciadorDeJogo.ts`). Esta classe é responsável por gerenciar o estado do jogo e garantir que apenas uma instância dela exista durante a execução do programa. A implementação do Singleton é feita através de um construtor privado e um método estático que fornece acesso à instância única.
 
-```typescript
+```python
 class GerenciadorDeJogo {
     private static instancia: GerenciadorDeJogo;
 
